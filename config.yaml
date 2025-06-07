@@ -1,0 +1,22 @@
+email:
+  sender: "your@gmail.com"
+  password: "app_password"
+  smtp_host: "smtp.gmail.com"
+  smtp_port: 465
+  receivers:
+    - "target1@example.com"
+    - "target2@example.com"
+
+rss:
+  feeds:
+    - "https://example.com/rss"
+  fetch_interval_minutes: 60
+  enable_deduplication: true
+
+ai_summary:
+  enabled: false
+  api_key: ""
+  api_url: "https://api.openai.com/v1/chat/completions"
+  model: "gpt-3.5-turbo"
+  max_tokens: 300
+  prompt: "请总结这篇文章的关键内容，用简明扼要的中文描述。"
