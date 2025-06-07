@@ -108,4 +108,4 @@ docker run -v $(pwd)/config.yaml:/app/config.yaml rss2mail
 
 ---
 
-MIT License · Created by You
+MIT License · Created by Avhnagn
